@@ -25,7 +25,7 @@ def count_contestants_by_hometown(data, hometown)
   data.each { |season, woman_array|
     woman_array.each { |woman|
       if woman["hometown"] == hometown
-        woman_count++
+        woman_count+=1
       end
     }
   }
