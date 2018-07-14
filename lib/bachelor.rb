@@ -45,8 +45,8 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  total_age = 0
-  contestants = 0
+  total_age = 0.00
+  contestants = 0.00
   data[season].each {|contestant|
     total_age += contestant["age"].to_f
     contestants += 1
